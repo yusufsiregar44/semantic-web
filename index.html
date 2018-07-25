@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,37 @@
   <link rel="stylesheet" href="./style.css">
   <title>Semantic Web</title>
 </head>
+
 <body>
   <header>
     <h1>OSIS Election</h1>
   </header>
 
+  <div class="container">
+    <div class="form">
+      <h1>Choose the Candidate of Your Choice</h1>
+      <hr>
+      <div class="candidateA">
+        <div class="containerImg">
+          <img src="images/homer-simpson.jpg" alt="Homer"/>
+        </div>
+        <button class="votebtn">Homer Simpson</button>
+      </div>
+      <div class="candidateB">
+        <div class="containerImg">
+          <img src="images/spongebob.png" alt="SpongeBob"/>
+        </div>
+        <button class="votebtn">SpongeBob SquarePants</button>
+      </div>
+    </div>
+  </div>
+
   <form>
-    <div class="container">
-      <p>Please enter your 3-characters personal access key to vote</p>
+    <div class="container1">
+      <p>Please enter the 3-characters admin access key to access the results</p>
       <hr>
 
-      <label><b>Personal Access Key</b></label>
+      <label><b>Admin Access Key</b></label>
       <input type="text" placeholder="Enter Key" name="key">
 
       <div class="clearfix">
@@ -26,9 +47,7 @@
     </div>
   </form>
 
-  <footer>Copyright © 2018 Yusuf Salman Noerinaldy Siregar
-    <br>All rights reserved
-  </footer>
   <script src="main.js"></script>
 </body>
+
 </html>

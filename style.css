@@ -21,6 +21,11 @@ html {
   /* border: 2px solid #000000; */
 }
 
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
 form {
   width: 100vw;
   min-height: 90vh;
@@ -90,8 +95,40 @@ button:hover {
 }
 
 /* Add padding to container elements */
-.container {
+.container1 {
   padding: 16px;
+}
+
+.container {
+  margin: 10px auto;
+  width: 100vw;
+  min-height: 90vh;
+  box-sizing: border-box;
+  padding: 20px 20px 40px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.candidateA {
+  display: inline-block;
+  max-width: 350px;
+  vertical-align: top;
+  margin: 10px auto;
+}
+
+.candidateB {
+  display: inline-block;
+  max-width: 150px;
+  margin: 10px auto;
+}
+
+.containerImg img {
+  /* border: 2px solid #000000; */
+  margin: 10px auto;
+  height: 200px;
+  width: 100px;
+  object-fit: contain;
 }
 
 /* Clear floats */
